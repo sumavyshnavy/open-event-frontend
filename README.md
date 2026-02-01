@@ -33,20 +33,31 @@ The Open Event Frontend can be easily deployed on a variety of platforms. Detail
 
 ## Running / Development
 
-[Click to see installation video](https://youtu.be/BNi492mJyD4)
+[[Click to see installation video](https://youtu.be/BNi492mJyD4)
 
-**Note**: Please follow [installation steps](/docs/installation/local.md#steps) listed above carefully before running
 
-Unfortunately, no one reads the note above, so please just run the following commands when setting up for the first time:
+
+**Note**: Please follow the [installation steps](/docs/installation/local.md#steps) listed above carefully before running.
+
+For first-time setup, run the following commands:
 
 - `yarn`
 - `cp .env.example .env`
 - `yarn l10n:generate`
 
+> **Windows Users:**  
+> - Ensure you are using **Node.js >= 12 and < 15**. Newer Node versions may cause dependency or runtime issues.  
+> - On Command Prompt or PowerShell, replace `cp` with:
+>   ```bat
+>   copy .env.example .env
+>   ```
+> - If you encounter missing locale errors on first run, ensure `yarn l10n:generate` has completed successfully.
+
 Running:
 
 - `yarn start`
 - Visit your app at [http://localhost:4200](http://localhost:4200).
+
 
 ### Code Generators
 
