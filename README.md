@@ -35,8 +35,6 @@ The Open Event Frontend can be easily deployed on a variety of platforms. Detail
 
 [[Click to see installation video](https://youtu.be/BNi492mJyD4)
 
-
-
 **Note**: Please follow the [installation steps](/docs/installation/local.md#steps) listed above carefully before running.
 
 For first-time setup, run the following commands:
